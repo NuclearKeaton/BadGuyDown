@@ -1,0 +1,186 @@
+.jumbotron
+{
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  padding-left: 4%;
+  background-color: #282828;
+  margin: 0;
+}
+body
+{
+  background-color: #78bde8;
+}
+nav
+{
+  background-color: #3a3a3a;
+}
+.nav-link
+{
+margin-bottom: 0%;
+}
+.navbar-text, a, a:hover, .jumbotron, .card, .btn, footer
+{
+  color: #ffffff;
+  border: none;
+}
+.navbar-brand:hover, .nav-link:hover
+{
+  background-color: #0a68ff;
+}
+.navbar-brand:active, .nav-link:active
+{
+  background-color: #063d96;
+}
+.sidebar-left
+{
+  position: absolute;
+  top: 0;
+  left: -40.1%;
+  height:100vh;
+  width: 40%;
+}
+.sidebar-right
+{
+  position: absolute;
+  top: 0;
+  right: -40.1%;
+  height:100vh;
+  width: 40%;
+  transform: scaleX(-1);
+}
+section img
+{
+  width: 100%;
+}
+.container
+{
+  box-shadow: 0 0 2em black;
+  padding: 0;
+  position: relative;
+}
+.odd, .even
+{
+  padding: 3%;
+  text-align: center;
+}
+.even
+{
+  color: #1f2021;
+  background-color: #fff;
+}
+.odd
+{
+  background-color: #1f2021;
+  color: #ffffff;
+}
+.Logo
+{
+  width: 4em;
+  float: left;
+}
+.calendar
+{
+  padding: 5%;
+  background-image: url(BadGuyDownSite_Negative.jpg);
+  background-size: cover;
+  height: 600px;
+}
+.calendar iframe
+{
+  opacity: 0.9;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+.card-header
+{
+  background-color: #282828;
+  padding: 0;
+}
+.Tab
+{
+  padding-left: 2%;
+}
+.collapse
+{
+    background-color: #3a3a3a;
+}
+.Col1, .Col2, .Col3
+{
+  float: left;
+  width: 30%;
+  background-color: #3a3a3a;
+  padding-right:2%;
+}
+.Column1
+{
+  float: left;
+  width: 45%;
+}
+.Column2
+{
+  float: right;
+  width: 45%;
+}
+.btn-dark
+{
+  width:100%;
+  height: 100%;
+  text-align: left;
+
+}
+footer
+{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  background-color: #282828;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  margin: 0;
+}
+footer p
+{
+  margin: 0;
+}
+
+.mapouter
+{
+  position:relative;
+  text-align:right;
+  height:20%;
+  width:97%;
+}
+.gmap_canvas
+{
+  overflow:hidden;
+  background:none;
+  height:20%;
+  width:100%;
+}
+.even p, .odd p
+{
+  padding-right: 20%;
+  padding-left: 20%;
+}
+table
+{
+  width: 100%;
+  background-color: #b7b7b7;
+  margin-left: auto;
+  margin-right: auto;
+}
+td
+{
+  text-align: center;
+  padding: 1%;
+}
+td img
+{
+  width: 25%;
+}
+section
+{
+  margin-bottom: 2em;
+}
